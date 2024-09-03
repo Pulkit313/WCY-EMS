@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_Attendees_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>number_of_Registered_attendees__c  &gt; Maximum_Attendees__c</errorConditionFormula>
+    <errorDisplayField>number_of_Registered_attendees__c</errorDisplayField>
+    <errorMessage>The number of attendees cannot exceed the maximum allowed for this event</errorMessage>
+</ValidationRule>
